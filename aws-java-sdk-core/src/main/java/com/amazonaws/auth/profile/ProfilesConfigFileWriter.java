@@ -450,7 +450,12 @@ public class ProfilesConfigFileWriter {
                    ProfileKeyConstants.EXTERNAL_ID.equals(propertyName) ||
                    ProfileKeyConstants.ROLE_ARN.equals(propertyName) ||
                    ProfileKeyConstants.ROLE_SESSION_NAME.equals(propertyName) ||
-                   ProfileKeyConstants.SOURCE_PROFILE.equals(propertyName);
+                   ProfileKeyConstants.SOURCE_PROFILE.equals(propertyName) ||
+                   ProfileKeyConstants.REGION.equals(propertyName) ||
+                   ProfileKeyConstants.AWS_ACCOUNT_ID.equals(propertyName) ||
+                   ProfileKeyConstants.ENDPOINT_DISCOVERY.equals(propertyName) ||
+                   ProfileKeyConstants.CREDENTIAL_PROCESS.equals(propertyName) ||
+                   ProfileKeyConstants.WEB_IDENTITY_TOKEN.equals(propertyName);
         }
 
         /* Private interface */
